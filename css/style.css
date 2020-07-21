@@ -1,8 +1,8 @@
+/*-----------------------------Whole Page--------------------------*/
 body {
     font-family: 'Montserrat';
     text-align: center;
 }
-
 
 h1,
 h2,
@@ -20,20 +20,20 @@ p {
 }
 
 #title {
-    background-color: #ff4c68;
-    color: #fff;
     text-align: left;
 
 }
-#title .container-fluid{
-    padding: 3% 12% 7%;
+.white-section {
+    background-color: #fff;
 }
 
-.container-fluid {
-    padding: 7% 15%;
+.color-section {
+    background: #ff4c68;
+    color: #fff;
 }
 
-/*Navigation Bar*/
+
+/*----------------------Navigation Bar-------------------------------*/
 
 .navbar {
     padding: 0 0 4.5rem;
@@ -60,12 +60,21 @@ p {
     margin: 5% 3% 5% 0;
 }
 
+/*----------------------Title section-------------------------------*/
 .big-heading {
     font-family: 'Montserrat';
     font-weight: 800;
     font-size: 3.5rem;
     line-height: 1.5;
 }
+#title .container-fluid {
+    padding: 3% 12% 7%;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
 
 .title-img {
     width: 60%;
@@ -74,15 +83,14 @@ p {
     right: 20%;
 }
 
-/*Feature*/
-#features {   
-    background: #fff;
+/*-----------------------------Feature-------------------------------*/
+#features {
     position: relative;
     z-index: 1;
 }
 
 .feature-box {
-   
+
     padding: 5%;
 }
 
@@ -95,16 +103,15 @@ p {
 .feature-icon:hover {
     color: #ff4c68;
 }
-.feature-header{
+
+.feature-header {
     font-size: 1.5rem;
 }
 
-/*Testimonial*/
+/*--------------------------------Testimonial----------------------------*/
 
 #testimonials {
-    
     background: #ef8172;
-    color: #fff;
 }
 
 .testimonial-image {
@@ -113,14 +120,14 @@ p {
     margin: 20px;
 }
 
-.testimonial-text{
+.testimonial-text {
     font-size: 3rem;
     line-height: 1.5;
 }
-/*Press*/
+
+/*-----------------------------------Press---------------------------------*/
 #press {
     background: #ef8172;
-    
     padding-bottom: 3%;
 }
 
@@ -132,7 +139,7 @@ p {
 
 #pricing {
     padding: 100px;
-    
+
 }
 
 .pricing-col {
@@ -144,13 +151,7 @@ p {
     line-height: 1.5;
 
 }
-
-
-#cta {
-    background: #ff4c68;
-    color: #fff;   
-}
-
+/*------------------------------------cta------------------------------*/
 .cta-heading {
     font-weight: 800;
     font-size: 3.5rem;
@@ -159,6 +160,7 @@ p {
 
 
 
+/*------------------------------------media query------------------------------*/
 @media (max-width: 991px) {
     .title-img {
         position: static;
